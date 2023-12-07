@@ -25,8 +25,8 @@ export default function BlogPage() {
     router.push(path);
   }
 
-  console.log("getYearsAsDict", BlogData.getYearsAndMonths());
-  console.log("getYearsAsDict sorted", BlogData.getYearsAndMonthsSorted());
+  //console.log("getYearsAsDict", BlogData.getYearsAndMonths());
+  //console.log("getYearsAsDict sorted", BlogData.getYearsAndMonthsSorted());
   return (
     <Section>
       <Inner>
